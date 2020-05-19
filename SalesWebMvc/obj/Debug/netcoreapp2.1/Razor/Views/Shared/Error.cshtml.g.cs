@@ -10,6 +10,7 @@ namespace AspNetCore
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
+    using SalesWebMvc.Models.ViewModels;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
@@ -19,7 +20,6 @@ using SalesWebMvc;
 #line default
 #line hidden
 #line 2 "C:\temp\ws-vs2019\SalesWebMvc\SalesWebMvc\Views\_ViewImports.cshtml"
-using SalesWebMvc.Models.ViewModels;
 
 #line default
 #line hidden
