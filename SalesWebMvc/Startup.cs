@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Data;
+using SalesWebMvc.Models.Services;
 
 namespace SalesWebMvc
 {
@@ -41,7 +42,7 @@ namespace SalesWebMvc
                         builder.MigrationsAssembly("SalesWebMvc")));
 
             services.AddScoped<SeedingService>();
-           
+            services.AddScoped<SellerService>();
 
         }
 
