@@ -43,7 +43,7 @@ namespace SalesWebMvc.Models.Services
                 await _context.SaveChangesAsync();
             }
 
-            catch(DbUpdateException e)
+            catch(DbUpdateException)
             {
                 throw new IntegrityException("Cannot delete seller because he/she has sales registered.");
             }
